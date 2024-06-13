@@ -22,7 +22,11 @@ body {
 .left {
     width: 450px;
 
-    
+    background-image: url("./bg.jpg");
+    background-size:cover;
+
+    position: relative;
+    z-index: 1;
 
     flex-grow: 0;
 }
@@ -40,11 +44,11 @@ body {
 }
 
 .top, .bottom {
-    background-color: rgb(238, 243, 232);
+    background-color: #eef3e8;
 }
 
 .top {
-    height: 45%;
+    height: 35%;
 
     display: flex;
     flex-direction: column;
@@ -59,6 +63,10 @@ body {
 
 .middle {
     height: 30%;
+
+    position: relative;
+
+    box-shadow: 0px 3px 5px #c3c7bf;
 }
 
 .middle > p {
@@ -71,7 +79,7 @@ body {
 }
 
 .bottom {
-    height: 25%;
+    height: 35%;
     padding-top: 30px;
 }
 
