@@ -21,7 +21,8 @@ body {
 
 .left {
     width: 450px;
-    background-color: darkgreen;
+
+    
 
     flex-grow: 0;
 }
@@ -66,9 +67,48 @@ body {
 
 .top, .middle > p {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.4em;
 }
 
 .bottom {
     height: 25%;
+    padding-top: 30px;
+}
+
+.bottom > button {
+    border: 0;
+    border-radius: 8px;
+
+    color: white;
+    background-color: #596D48;
+
+    font-size: 1em;
+    font-weight: bold;
+
+    padding: 16px 40px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #49583a;
+}
+
+button:active {
+    background-color: #698056;
+}
+
+.bottom a {
+    text-decoration: none;
+
+    color: #596D48;
+
+    font-weight: bold;
+}
+
+.bottom a:hover {
+    color: #49583a;
+}
+
+.bottom a:active {
+    color: #698056;
 }
