@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+.left {
+    width: 450px;
+    background-color: darkgreen;
+
+    flex-grow: 0;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+.top {
+    height: 40%;
+}
+
+.middle {
+    height: 35%;
+}
+
+.bottom {
+    height: 25%;
+}
