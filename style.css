@@ -23,7 +23,7 @@ body {
     font-family: Norse, serif;
 
     background-image: url("./images/bg.jpg");
-    background-size:cover;
+    background-size: cover;
 
     position: relative;
     z-index: 1;
@@ -104,6 +104,10 @@ body {
 }
 
 .bottom {
+    --default-color: #596D48;
+    --hover-color: #49583a;
+    --active-color: #698056;
+
     height: 35%;
     padding-top: 30px;
 }
@@ -113,7 +117,7 @@ body {
     border-radius: 8px;
 
     color: white;
-    background-color: #596D48;
+    background-color: var(--default-color);
 
     font-size: 1em;
     font-weight: bold;
@@ -121,27 +125,27 @@ body {
     padding: 16px 40px;
 }
 
-button:hover {
-    cursor: pointer;
-    background-color: #49583a;
-}
-
-button:active {
-    background-color: #698056;
-}
-
 .bottom a {
     text-decoration: none;
 
-    color: #596D48;
+    color: var(--default-color);
 
     font-weight: bold;
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
+
 .bottom a:hover {
-    color: #49583a;
+    color: var(--hover-color);
+}
+
+button:active {
+    background-color: var(--active-color);
 }
 
 .bottom a:active {
-    color: #698056;
+    color: var(--active-color);
 }
