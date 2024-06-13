@@ -69,7 +69,7 @@ body {
 }
 
 .top, .bottom {
-    background-color: #eef3e8;
+    background-color: #F9FAFB;
 }
 
 .top {
@@ -91,7 +91,7 @@ body {
 
     position: relative;
 
-    box-shadow: 0px 3px 5px #c3c7bf;
+    box-shadow: 0px 4px 6px #d3d3d4;
 }
 
 .middle > p {
