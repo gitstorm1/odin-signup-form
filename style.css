@@ -19,6 +19,9 @@ body {
 .left {
     width: 450px;
 
+    color: white;
+    font-family: Norse, serif;
+
     background-image: url("./bg.jpg");
     background-size:cover;
 
@@ -26,6 +29,31 @@ body {
     z-index: 1;
 
     flex-grow: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo-container {
+    display: flex;
+    flex-grow: 1;
+
+    font-size: 70px;
+
+    background-color: #00000077;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 5px;
+
+    margin-top: 200px;
+    padding: 8px 0;
+}
+
+.logo-container > p {
+    margin: 0;
 }
 
 .right {
