@@ -24,12 +24,27 @@ body {
     flex: 1;
 }
 
+.right > div {
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+
+.top, .bottom {
+    background-color: rgb(238, 243, 232);
+}
+
 .top {
-    height: 40%;
+    height: 45%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding-bottom: 50px;
 }
 
 .middle {
-    height: 35%;
+    height: 30%;
 }
 
 .bottom {
