@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Norse;
-    src: url("./Norse-Bold.otf");
+    src: url("./fonts/Norse-Bold.otf");
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     color: white;
     font-family: Norse, serif;
 
-    background-image: url("./bg.jpg");
+    background-image: url("./images/bg.jpg");
     background-size:cover;
 
     position: relative;
