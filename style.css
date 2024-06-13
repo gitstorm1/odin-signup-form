@@ -74,11 +74,11 @@ body {
 }
 
 .top {
-    height: 35%;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
+    flex: 3.5;
 
     padding-bottom: 50px;
 }
@@ -88,14 +88,14 @@ body {
 }
 
 .middle {
-    height: 30%;
-
     position: relative;
 
     box-shadow: 0px 4px 6px #d3d3d4;
 
     display: flex;
     flex-direction: column;
+
+    flex: 3;
 
     padding-bottom: 24px;
 }
@@ -110,8 +110,6 @@ body {
 }
 
 label {
-    display: block;
-
     color: rgb(39, 39, 39);
 
     font-size: 0.8em;
@@ -122,8 +120,6 @@ label {
 }
 
 input {
-    width: 100%;
-
     outline: none;
     border: 1px solid black;
 
@@ -157,6 +153,9 @@ form > div {
 
 form > div > div {
     flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .bottom {
@@ -164,8 +163,9 @@ form > div > div {
     --hover-color: #49583a;
     --active-color: #698056;
 
-    height: 35%;
     padding-top: 30px;
+
+    flex: 3.5;
 }
 
 .bottom > button {
