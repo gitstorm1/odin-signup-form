@@ -60,6 +60,10 @@ body {
     height: 30%;
 }
 
+.middle > p {
+    color: #0B1625;
+}
+
 .top, .middle > p {
     font-weight: 500;
     font-size: 20px;
